@@ -52,6 +52,30 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
 
+## 🔧 Capabilities & Cron Jobs
+
+### Core Capabilities
+- File read/write, command execution
+- Browser automation
+- Feishu: doc, drive, wiki, task, bitable, perm
+- Weather, web search, web fetch
+- GitHub operations
+- Image & PDF analysis
+- TTS voice synthesis
+- Cron job scheduling
+
+### Daily Cron Tasks (5 tasks)
+
+| Time | Task | Description |
+|------|------|-------------|
+| 7:30 | 每日日报 | Daily report: yesterday工作总结 + 科技/AI新闻10条 + 佛山天气 + 商业机会分析 |
+| 7:30 | 每日待办检查 | Check all todos from Feishu bitable (with编号) |
+| 8:00 | 每日待办提醒 | Remind pending todos (with编号) |
+| 9:00 | 每日运营文章发布 | Auto-publish 小红书/公众号 articles |
+| 23:00 | 每日备份 | Git push backup to GitHub |
+
+**Backup files:** AGENTS.md, SOUL.md, TOOLS.md, USER.md, HEARTBEAT.md, memory/, sendmail.ps1, resume/
+
 ## External vs Internal
 
 **Safe to do freely:**
