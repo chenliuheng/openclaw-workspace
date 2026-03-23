@@ -37,6 +37,14 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+## 小红书自动发布
+- 技能位置：C:\Users\陈流恒\.openclaw\skills\xiaohongshu-publisher\
+- 主脚本：scripts/xiaohongshu_final.py
+- 使用：python xiaohongshu_final.py
+- 依赖：selenium（已安装）
+
+---
+
 ## 邮件配置
 - 网易邮箱：chenliuheng@163.com
 - SMTP：smtp.163.com
