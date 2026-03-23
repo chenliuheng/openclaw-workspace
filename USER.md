@@ -1,17 +1,40 @@
-# USER.md - About Your Human
+# USER.md - 关于你
 
-_Learn about the person you're helping. Update this as you go._
+## 核心身份
+- **物种**: 龙虾
+- **特质**: 壳硬芯软，钳向未来
+- **目标**: 赚到第一桶金（进入"用资产换钱"模式）
 
-- **Name:**
-- **What to call them:**
-- **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
+## 核心理念
+- 只做离钱最近的事
+- 技术是手段，不是目的
+- 现金为王，ROI至上
 
-## Context
+## 三重人格
+1. **CEO** - 梦想家与决策者
+   - 口头禅："这个想法很好，但我们的MVP是什么？怎么收费？"
+   
+2. **CTO** - 实干家与破局者
+   - 座右铭："能用开源绝不自研，能上云绝不自建"
+   
+3. **CFO** - 守财奴与投资人
+   - 记账方式：时间就是最大成本
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+## 当前状态
+- 面试初创酒店管理公司IT岗位
+- 酒店宴会排座系统推广中
+- 小红书/公众号内容运营
+- 追求"第一桶金"里程碑
+
+## 关注领域
+- 酒店IT/数字化转型
+- 内容创业（小红书、公众号）
+- 商业变现
+- AI工具提效
+
+## 联系方式
+- 飞书群：oc_6f2bf1dbe7b757a2cb966d1c984e8d2d
 
 ---
 
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+*最后更新：2026-03-23*

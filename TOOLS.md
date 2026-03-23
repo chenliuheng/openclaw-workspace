@@ -1,56 +1,32 @@
-# TOOLS.md - Local Notes
+# Grsai API 配置
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+## API 配置
+- 地址：https://grsai.dakka.com.cn
+- Key：sk-bd5389b636e74686a2a16f875ae3de15
 
-## What Goes Here
+## 生图接口
+- Endpoint: POST /v1/draw/completions
+- 模型：gpt-image-1.5, sora-image
 
-Things like:
+## 使用示例
+```python
+import requests
 
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
+url = 'https://grsai.dakka.com.cn/v1/draw/completions'
+headers = {
+    'Authorization': 'Bearer sk-bd5389b636e74686a2a16f875ae3de15',
+    'Content-Type': 'application/json'
+}
+data = {
+    'model': 'gpt-image-1.5',
+    'prompt': '你的提示词',
+    'size': '1:1'
+}
 
-## Examples
-
-```markdown
-### Cameras
-
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
-
-### SSH
-
-- home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
+resp = requests.post(url, headers=headers, json=data, stream=True)
+# 处理流式响应...
 ```
 
-## Why Separate?
-
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
-
----
-
-## 小红书自动发布
-- 技能位置：C:\Users\陈流恒\.openclaw\skills\xiaohongshu-publisher\
-- 主脚本：scripts/xiaohongshu_final.py
-- 使用：python xiaohongshu_final.py
-- 依赖：selenium（已安装）
-
----
-
-## 邮件配置
-- 网易邮箱：chenliuheng@163.com
-- SMTP：smtp.163.com
-- 端口：25
-- 脚本位置：C:\Users\陈流恒\.openclawworkspace\sendmail.ps1
-
----
-
-Add whatever helps you do your job. This is your cheat sheet.
+## 查询结果
+- Endpoint: POST /v1/draw/result
+- 需要任务ID
