@@ -2,6 +2,12 @@
 
 ## 核心技能
 
+### 微信公众号API关键修复
+- **问题**：创建草稿中文显示乱码
+- **解决**：添加 `headers = {'Content-Type': 'application/json; charset=utf-8'}`
+- **发布流程**：API创建草稿 → 后台调整排版 → 发布
+- **media_id保存**：封面: `7DbWWdjxIlMVzqjHkOlVFrh_Fa32PF8Bmh9B7ilPk1oi3w4m-MK8pWCo_V2VChwj`
+
 ### 已安装技能
 - **skywork-ppt**: PPT生成技能
 - **xiaohongshu-ops**: 小红书运营技能
@@ -27,6 +33,23 @@
 | 8:00 | 5c727990 | 待办提醒：提醒"待处理"状态的待办 |
 | 9:00 | 7851b5a2 | 运营文章发布：小红书/公众号自动发布 |
 | 23:00 | 7cda8ba5 | 自动备份：git push 到 GitHub |
+
+---
+
+## 微信公众号文章标准模板
+
+**模板文件**：`scripts/wechat_template.md`
+
+**格式标准**：
+- 标题：24px加粗 #1a1a1a
+- Part标题：20px，分段颜色（红/绿/紫/蓝）
+- 步骤：15px蓝字+缩进
+- 正文：14-15px灰色
+- 称呼：小伙伴们/打工人
+- 风格：轻松诙谐+Emoji
+- 互动：结尾引导评论
+
+**封面ID**：`7DbWWdjxIlMVzqjHkOlVFrh_Fa32PF8Bmh9B7ilPk1oi3w4m-MK8pWCo_V2VChwj`
 
 ---
 
