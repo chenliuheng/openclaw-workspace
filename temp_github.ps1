@@ -1,0 +1,2 @@
+$r = Invoke-RestMethod -Uri 'https://api.github.com/search/repositories?q=created:>2026-04-25&sort=stars&order=desc&per_page=10' -TimeoutSec 30
+$r.items | Select-Object -First 10 | ConvertTo-Json -Depth 2
