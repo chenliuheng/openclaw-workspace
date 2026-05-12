@@ -9,7 +9,8 @@
 - **media_id保存**：封面: `7DbWWdjxIlMVzqjHkOlVFrh_Fa32PF8Bmh9B7ilPk1oi3w4m-MK8pWCo_V2VChwj`
 
 ### 已安装技能
-- **skywork-ppt**: PPT生成技能
+- **skywork-ppt**: PPT生成技能 (Nano Banana 2)
+- **guizang-ppt**: 归藏老师PPT Skills (瑞士国际主义风格)
 - **xiaohongshu-ops**: 小红书运营技能
 - **xiaohongshu-mcp**: 小红书API自动化工具（需配置）
 - **github**: GitHub CLI 操作
