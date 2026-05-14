@@ -56,7 +56,7 @@
 
 ## 重要文件位置
 
-- 待办表格: `BcsJBkrl7aKkq9soigjcvg3znQf / tblIBJmlELfMXP9O`
+- 待办表格: `LBJDb3risaZ4s6s25mlc9b1fn3s / tblRqdkuHJZLzcJZ`
 - 备份目录: `memory/`, `scripts/`, `TOOLS.md`
 - 技能目录: `.openclaw/skills/`
 
